@@ -1,0 +1,89 @@
+#hoem-banner {
+  width: 100%;
+  height: 844px !important;
+}
+#hoem-banner .carousel-items {
+  background-size: 100% 100%;
+}
+.layui-carousel-ind {
+  top: -85px;
+}
+.layui-carousel-ind ul {
+  background: transparent !important;
+}
+.layui-carousel-ind ul li {
+  border-radius: 0;
+  height: 5px;
+  width: 60px;
+}
+.layui-carousel-arrow {
+  background-color: transparent;
+}
+.layui-carousel-arrow:hover {
+  background-color: transparent;
+}
+.img-title {
+  width: 100%;
+  font-size: 46px;
+  color: #ffffff;
+  padding-top: 116px;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 0;
+}
+.img-title .img-bottom {
+  width: 90px;
+  height: 0px;
+  background: #ffffff;
+  margin: 30px auto 0;
+}
+.carousel-boby {
+  position: absolute;
+  bottom: 120px;
+  left: 105px;
+}
+.carousel-boby .carousel-title {
+  color: #ffffff;
+  font-size: 54px;
+  font-weight: bold;
+  letter-spacing: 9px;
+}
+.carousel-boby .carousel-english {
+  height: 35px;
+  width: 255px;
+  font-weight: bold;
+  background: #ffffff;
+  margin-top: 30px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 4px;
+  color: #424242;
+}
+.m {
+  background: #dddddd;
+}
+.swiper-button-next {
+  background: url('../image/md_right.png') no-repeat 0px 10px;
+  background-size: 100%;
+  outline: none;
+  right: 5%;
+}
+.swiper-button-prev {
+  background: url(../image/md_left.png) no-repeat 0px 10px;
+  background-size: 100%;
+  outline: none;
+  left: 5%;
+}
+.swiper-pagination-bullet {
+  display: inline-block;
+  width: 80px;
+  height: 5px;
+  border-radius: 0;
+  opacity: 1;
+  background: #5a5e62;
+}
+.swiper-pagination-bullet-active {
+  background: #ffffff;
+}
